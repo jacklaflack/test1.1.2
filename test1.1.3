@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations Nature pour EHPAD</title>
+    <style>
+        /* Styles CSS pour la mise en page peuvent être ajoutés ici */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        .banner {
+            background-image: url('landscape.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 0;
+        }
+        .banner h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        .section {
+            padding: 50px 0;
+            text-align: center;
+        }
+        .section img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .section h3 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .section p {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        .contact {
+            background-color: #f4f4f4;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .contact form {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact form input[type="text"], .contact form input[type="email"], .contact form textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            font-size: 1rem;
+        }
+        .contact form textarea {
+            height: 120px;
+        }
+        .contact form input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1rem;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="nature-logo.png" alt="Logo Nature">
+        <nav>
+            <a href="#accueil">Accueil</a>
+            <a href="#animations">Animations</a>
+            <a href="#a-propos">À propos</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="banner">
+        <h2>Animations Nature pour EHPAD</h2>
+        <p>Apportez la nature au cœur de votre établissement</p>
+    </div>
+    
+    <div id="projets" class="section">
+        <h3>Découvrez nos Projets d’Animations</h3>
+        
+        <div class="subsection">
+            <img src="ateliers-sensoriels.jpg" alt="Ateliers Sensoriels">
+            <p>Stimulez les cinq sens de vos résidents avec des activités variées. Jardinage thérapeutique, ateliers d'odeurs, et manipulation de matériaux naturels.</p>
+        </div>
+        
+        <div class="subsection">
+            <img src="randonnees-douces.jpg" alt="Randonnées Douces">
+            <p>Promenades adaptées dans des environnements naturels proches pour favoriser le bien-être physique et mental.</p>
+        </div>
+        
+        <div class="subsection">
+            <img src="observation-nature.jpg" alt="Observation de la Nature">
+            <p>Séances guidées pour découvrir la biodiversité locale. Écoute des oiseaux et observation des insectes.</p>
+        </div>
+        
+        <div class="subsection">
+            <img src="art-nature.jpg" alt="Art Nature et Land Art">
+            <p>Utilisation des éléments naturels pour créer des œuvres d'art éphémères en plein air ou de petits tableaux dans l'EHPAD.</p>
+        </div>
+        
+        <div class="subsection">
+            <img src="jardin-therapeutique.jpg" alt="Jardin Thérapeutique">
+            <p>Création et entretien de jardins adaptés aux résidents pour un environnement interactif et engageant.</p>
+        </div>
+    </div>
+    
+    <div id="avantages" class="section">
+        <h3>Les Avantages de nos Animations</h3>
+        
+        <div class="subsection">
+            <img src="stimulation-cognitive.jpg" alt="Stimulation Cognitive et Physique">
+            <p>Encouragement de l’activité physique douce et de la stimulation cognitive.</p>
+        </div>
+        
+        <div class="subsection">
+            <img src="bien-etre-emotionnel.jpg" alt="Bien-être Émotionnel">
+            <p>Réduction du stress et amélioration de l’humeur grâce au contact avec la nature.</p>
+        </div>
+        
+        <div class="subsection">
+            <img src="socialisation.jpg" alt="Socialisation">
+            <p>Renforcement des liens sociaux entre résidents à travers des activités collectives.</p>
+        </div>
+    </div>
+    
+    <div id="tarifs-logistique" class="section">
+        <h3>Tarifs et Logistique</h3>
+        
+        <table>
+            <tr>
+                <td>Ateliers Sensoriels</td>
+                <td>150 euros par atelier de 1h30</td>
+            </tr>
+            <tr>
+                <td>Randonnées Douces</td>
+                <td>225 euros par sortie de 2 heures</td>
+            </tr>
+            <tr>
+                <td>Observation de la Nature</td>
+                <td>190 euros par session de 2 heures</td>
+            </tr>
+            <tr>
+                <td>Art Nature et Land Art</td>
+                <td>140 euros par atelier de 1h30</td>
+            </tr>
+            <tr>
+                <td>Jardin Thérapeutique</td>
+                <td>450 euros pour la création initiale, puis 115 euros par séance d’entretien mensuelle</td>
+            </tr>
+        </table>
+        
+        <h4>Description logistique</h4>
+        <p>Groupes de 5 à 10 personnes pour une attention personnalisée. Adaptation des animations aux capacités physiques des résidents.</p>
+    </div>
+    
+    <div id="a-propos" class="section">
+        <h3>À propos de Nous</h3>
+        <p>Nous sommes spécialisés dans les animations nature pour les EHPAD, avec une passion pour apporter bien-être et épanouissement à travers des expériences enrichissantes en contact avec la nature. Nous possédons des diplômes de secourisme, assurant ainsi la sécurité et le bien-être des participants lors de toutes les activités.</p>
+        <img src="animateur-nature.jpg" alt="Animateur Nature">
+    </div>
+    
+    <div id="contact" class="contact">
+        <h3>Contactez-Nous</h3>
+        <form>
+            <input type="text" placeholder="Nom" required><br>
+            <input type="email" placeholder="Email" required><br>
+            <textarea placeholder="Message" required></textarea><br>
+            <input type="submit" value="Envoyer">
+        </form>
+        <p>Informations de contact :</p>
+        <p>Numéro de téléphone : [Numéro de téléphone]</p>
+        <p>Adresse email : [Adresse email]</p>
+        <p>Carte :</p>
+        <!-- Ajoutez ici une carte si nécessaire -->
+    </div>
+    
+    <footer>
+        <p>Informations légales et mentions :</p>
+        <a href="#">Mentions légales</a>
+        <a href="#">Politique de confidentialité</a>
+        <p>Suivez-nous sur :</p>
+        <a href="#"><img src="facebook.png" alt="Facebook"></a>
+        <a href="#"><img src="instagram.png" alt="Instagram"></a>
+        <a href="#"><img src="linkedin.png" alt="LinkedIn"></a>
+    </footer>
+</body>
+</html>
